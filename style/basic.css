@@ -1,8 +1,34 @@
+/* ===== Fonts ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'DM Sans', sans-serif; */
+
+/* ===== Colors ===== */
+
+:root{
+    --main-width-color: #FFFFFF;
+    --main-black-color: #000000;
+    --main-black-second-color: #F7F8FC;
+    --main-blue-color: #0067FF;
+}
+
+/* ===== Basic style ===== */
+
 *,*::before,*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter';
+}
+html{
+    font-size: 62.5%;
+    /* 1 rem = 10 px */
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
 }
 button{
     border: none;
