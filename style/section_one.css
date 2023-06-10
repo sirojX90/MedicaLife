@@ -41,15 +41,17 @@
 .one_cards{
     width: 50%;
     display: flex;
-    flex-wrap: wrap;
     gap: 2.5rem;
-
+}
+.one_card3,.one_card4{
+    margin-top: 2rem;
 }
 .one_card{
-    width: 47%;
+    width: 100%;
     padding: 4rem 4.7rem;
     text-align: center;
     background-color: var(--main-width-color);
+    transition: all .3s linear;
 }
 .one_card > button{
     margin-top: 2rem;
@@ -72,6 +74,7 @@
 .one_card:hover{
     background-color: var(--main-blue-color);
     color: var(--main-width-color);
+    margin-top: 3rem;
 }
 .one_card:hover > h3,.one_card:hover p,.one_card:hover > button{
     color: var(--main-width-color);
