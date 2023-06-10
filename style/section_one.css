@@ -1,0 +1,78 @@
+.one{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--main-black-second-color);
+    padding: 17.5rem 0 18.5rem 0;
+}
+.one p,.tow p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #444;
+}
+.one h2{
+    font-weight: 400;
+    font-size: 5.5rem;
+    line-height: 7.7rem;
+    margin-bottom: 2rem;
+}
+.one h3{
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+.one h4,.tow h4{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.6rem;
+    color: var(--main-blue-color);
+}
+.sec_one_main{
+    display: flex;
+    align-items: center;
+    gap:3rem;
+}
+.one_text{
+    width: 50%;
+}
+.one_cards{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+
+}
+.one_card{
+    width: 47%;
+    padding: 4rem 4.7rem;
+    text-align: center;
+    background-color: var(--main-width-color);
+}
+.one_card > button{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 4rem;
+    background: none;
+    border-bottom: 1px solid #F3874A;
+}
+.one_card3 > .one_img_box{
+    background-color: var(--main-blue-color);
+}
+.one_img_box{
+    display: inline-block;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    background-color: var(--main-black-second-color);
+}
+.one_card:hover{
+    background-color: var(--main-blue-color);
+    color: var(--main-width-color);
+}
+.one_card:hover > h3,.one_card:hover p,.one_card:hover > button{
+    color: var(--main-width-color);
+}
