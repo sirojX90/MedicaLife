@@ -1,0 +1,67 @@
+footer {
+    display: flex;
+   
+    color: white;
+    justify-content: space-between; 
+    gap: 166px; 
+    background: #4C40F7;
+     padding: 139px 100px;
+}
+
+
+
+.left_part span {
+    font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+}
+
+.left_part p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 41px;
+}
+
+.img_medicate {
+    display: flex;
+    gap: 12px;
+}
+.img_medicate img {
+    width: 40px;
+height: 40px;
+}
+.social_app {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.right_part {
+    display: flex;
+    gap: 110px;
+}
+.right_part ul > li:first-child {
+    margin-bottom: 24px;
+}
+.right_part ul > li {
+    margin-bottom: 27px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+}
+
+.right_part > .longer_ul > li{
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
