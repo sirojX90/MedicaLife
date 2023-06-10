@@ -3,7 +3,7 @@
     background-color: var(--main-black-second-color);
     padding: 17.5rem 0 18.5rem 0;
 }
-.one p{
+.one p,.tow p{
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
@@ -23,7 +23,7 @@
     margin-bottom: 1.5rem;
     color: #444;
 }
-.one h4{
+.one h4,.tow h4{
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 2.2rem;
