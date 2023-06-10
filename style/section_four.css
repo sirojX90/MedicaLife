@@ -1,0 +1,78 @@
+.section_four{
+    background: #F6F6F6;
+}
+.four_section{
+    display: flex;
+    padding: 12.9rem 0rem 21.6rem  0rem;
+    gap: 4.3rem;
+}
+.right_four_section{
+    margin: 8.7rem 6.8rem 0rem 0rem;
+}
+.left_four_section1_1{
+    /* border: 2px solid red; */
+    padding: 3.2rem 7.4rem;
+    display: flex;
+    gap: 14.5rem;
+    background-color: #FFFFFF;
+}
+.left_four_section1_1 > .img1 > img{
+    background-color: #4C40F7;
+    border-radius: 50%;
+    padding: 1rem 1rem;
+    margin-bottom: 1.7rem;
+}
+.left_four_section1_1 > .img2 > img{
+    background-color: #DCEEFE;
+    border-radius: 50%;
+    padding: 1rem 1rem;
+    margin-bottom: 1.7rem;
+}
+.left_four_section1_1 > .img3 > img{
+    background-color: #DCEEFE;
+    border-radius: 50%;
+    padding: 1rem 1rem;
+    margin-bottom: 1.7rem;
+}
+.word3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #444444;
+}
+.right_four_section > h5{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #4C40F7;
+    margin-bottom: 1.4rem;
+}
+.right_four_section > h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 5.5rem;
+    line-height: 7.7rem;
+    color: #444444;
+    margin-bottom: 2rem;
+}
+.right_four_section > p{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #444444;
+    margin-bottom: 2.8rem;
+}
+.right_four_section > button{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 2rem 3.9rem;
+    background: #4C40F7;
+    border-radius: 5rem;
+    color: #F8FAFD;
+}
